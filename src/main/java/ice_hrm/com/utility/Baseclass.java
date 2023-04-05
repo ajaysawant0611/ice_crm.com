@@ -58,6 +58,7 @@ public class Baseclass {
 			e.printStackTrace();
 
 		}
+		System.out.println("inside the main");
 	}
   
 	// this method perform click operation on the given locator
