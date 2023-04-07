@@ -20,6 +20,9 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.model.Log;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+// jenkins credentials
+//UserName : Admin 
+//Password : 9fdde76e251c48edb6382b7facd5e174
 
 
 public class Baseclass {
