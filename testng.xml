@@ -6,7 +6,7 @@
 	</listeners>
 	<test name="Regression">
 		<classes>
-			<class name="com.ice_hrm_automation.TestingExamples.NewTest"></class>
+			<class name="Automationframework.iceHrm.icelogintest"></class>
 		</classes>
 	</test>
    </suite> <!-- BaseClass -->
