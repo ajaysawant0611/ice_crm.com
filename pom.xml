@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>Automation</groupId>
-	<artifactId>ice_crm.com</artifactId>
+	<artifactId>ice_hrm.com</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>ice_crm.com</name>
@@ -40,7 +40,7 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>3.8.1</version>
-			<scope>test</scope>
+			
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
@@ -96,12 +96,7 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<version>1.18.26</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>Automation</groupId>
-			<artifactId>ice_hrm.com</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+		
 		</dependency>
 	</dependencies>
 </project>
