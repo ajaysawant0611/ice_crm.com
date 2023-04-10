@@ -1,4 +1,4 @@
-package TestNgAnnotations;
+/*package TestNgAnnotations;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -66,7 +66,7 @@ public class fileinput {
 	
 	}
 }
-		
+*/		
 	
 
 

@@ -1,4 +1,4 @@
-package TestNgAnnotations;
+/*package TestNgAnnotations;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -16,3 +16,4 @@ public void test(String username, String password) {
 	System.out.println(username + "  " + password);
 }
 }
+*/
