@@ -20,6 +20,9 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 public class TestListeners extends Baseclass implements ITestListener, ISuiteListener {
 	String reportPath;
 	ExtentReports extentReports;
+	public TestListeners() {
+		
+	}
 
 	@Override
 	public void onStart(ISuite suite) {
@@ -29,8 +32,8 @@ public class TestListeners extends Baseclass implements ITestListener, ISuiteLis
 		 dateTime.format(DateTimeFormatter.ofPattern("dd_MM_yyyy_hh_mm")); reportPath=
 		 System.getProperty("user.dir")+ "/reports/" + "reports_" + currentDateTime;
 		 File file =new File(reportPath); if(!file.exists()) { file.mkdir(); //create folder based on provided folder path } String
-		 String htmlReport=reportPath+"/AutomationReport.html"; ExtentSparkReporter
-		 sparkReporter=new ExtentSparkReporter(htmlReport); 
+		 String htmlReport=reportPath+"/AutomationReport.html"; 
+		 ExtentSparkReporter sparkReporter=new ExtentSparkReporter(htmlReport); 
 		 extentReports=new ExtentReports(); 
 		 extentReports.attachReporter(sparkReporter);
 		 } 
