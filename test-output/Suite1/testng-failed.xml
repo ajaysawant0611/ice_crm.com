@@ -6,13 +6,12 @@
   </listeners>
   <test thread-count="2" parallel="tests" name="Regression(failed)">
     <classes>
-      <class name="TestNgAnnotations.annotations">
+      <class name="Automationframework.iceHrm.icelogintest">
         <methods>
-          <include name="login"/>
-          <include name="afterclass"/>
-          <include name="beforeclass"/>
+          <include name="verifyLogin"/>
+          <include name="start"/>
         </methods>
-      </class> <!-- TestNgAnnotations.annotations -->
+      </class> <!-- Automationframework.iceHrm.icelogintest -->
     </classes>
   </test> <!-- Regression(failed) -->
 </suite> <!-- Failed suite [Suite1] -->
