@@ -15,7 +15,7 @@ public class PropertyHandling  {
    public PropertyHandling() {
 	   try {
 		   //config Properties file path
-		   String filePath=System.getProperty("user.dir") + "//target/config.properties";
+		   String filePath=System.getProperty("user.dir") + "//target//config.properties";
 		   FileInputStream file=new FileInputStream(filePath);
 		   prop=new Properties();
 		   prop.load(file);

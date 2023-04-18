@@ -5,8 +5,6 @@ import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
-import dev.failsafe.internal.util.Assert;
 import ice_hrm.com.utility.Baseclass;
 import ice_hrm.com.utility.PropertyHandling;
 import pages.IceEmployeePage;
@@ -29,7 +27,7 @@ public class EmployeeTest extends Baseclass {
         launchBrowser(property.getProperty("browser"));
         driver.get(property.getProperty("icehrmUrl"));
         loginPage = new LoginPage();
-      IceEmployeePage  employeePage = new IceEmployeePage();
+        employeePage = new IceEmployeePage();
         String username = property.getProperty("icehrmUsername");
         String password = property.getProperty("icehrmPassword");
         loginPage.login(username, password);
