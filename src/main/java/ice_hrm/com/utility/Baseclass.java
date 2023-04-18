@@ -27,8 +27,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Baseclass {
 	public  WebDriver driver;
-	//public ExtentTest log;
-    
+	//public ExtentTest log; 
 	public void launchBrowser(String browser) {
 		switch (browser) {
 		case "chrome":
