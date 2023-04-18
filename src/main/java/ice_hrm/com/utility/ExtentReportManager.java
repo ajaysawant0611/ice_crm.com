@@ -34,7 +34,7 @@ public class ExtentReportManager {
 		ExtentSparkReporter sparkReporter = new ExtentSparkReporter(htmlReport);
 		extentReporter = new ExtentReports();
 		extentReporter.attachReporter(sparkReporter);
-		extentReporter.setSystemInfo("user", "Rohan More");
+		extentReporter.setSystemInfo("user", "ajay sawant");
 		extentReporter.setSystemInfo("os", "windows");
 		extentReporter.setSystemInfo("environment", "QA");
 	}
