@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-18T12:35:13 IST" name="Suite1" finished-at="2023-04-18T12:35:53 IST" duration-ms="40562">
+  <suite started-at="2023-04-18T13:32:50 IST" name="Suite1" finished-at="2023-04-18T13:33:43 IST" duration-ms="53192">
     <groups>
     </groups>
-    <test started-at="2023-04-18T12:35:13 IST" name="Regression" finished-at="2023-04-18T12:35:53 IST" duration-ms="40562">
+    <test started-at="2023-04-18T13:32:50 IST" name="Regression" finished-at="2023-04-18T13:33:43 IST" duration-ms="53192">
       <class name="TestNgAnnotations.EmpTest">
-        <test-method is-config="true" signature="before()[pri:0, instance:TestNgAnnotations.EmpTest@411f53a0]" started-at="2023-04-18T12:35:13 IST" name="before" finished-at="2023-04-18T12:35:13 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:TestNgAnnotations.EmpTest@2b71e916]" started-at="2023-04-18T13:32:50 IST" name="before" finished-at="2023-04-18T13:32:50 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method signature="ligin()[pri:0, instance:TestNgAnnotations.EmpTest@411f53a0]" started-at="2023-04-18T12:35:13 IST" name="ligin" finished-at="2023-04-18T12:35:53 IST" duration-ms="40535" status="PASS">
+        <test-method signature="ligin()[pri:0, instance:TestNgAnnotations.EmpTest@2b71e916]" started-at="2023-04-18T13:32:50 IST" name="ligin" finished-at="2023-04-18T13:33:43 IST" duration-ms="53165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ligin -->

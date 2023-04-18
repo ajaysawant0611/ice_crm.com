@@ -17,7 +17,7 @@ import org.testng.ITestResult;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
-public class TestListeners extends Baseclass implements ITestListener, ISuiteListener {
+public class TestListeners  implements ITestListener, ISuiteListener {
 
 	
 //	ExtentReports extentReporter;
