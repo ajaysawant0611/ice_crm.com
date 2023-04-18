@@ -12,8 +12,4 @@ public class IceEmployeePage  {
     public By searchBox = By.id("advanced_search_searchTerm");
     public By searchButton = By.xpath("//span[text()='Search']");
 
-
-
-
-
 }
