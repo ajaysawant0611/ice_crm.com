@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Automationframework.iceHrm.icelogintest">
+      <class name="TestNgAnnotations.annotations">
         <methods>
-          <include name="verifyLogin" invocation-numbers="0 1 2"/>
-          <include name="start"/>
+          <include name="login"/>
+          <include name="afterclass"/>
+          <include name="beforeclass"/>
         </methods>
-      </class> <!-- Automationframework.iceHrm.icelogintest -->
+      </class> <!-- TestNgAnnotations.annotations -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

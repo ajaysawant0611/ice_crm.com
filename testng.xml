@@ -4,7 +4,7 @@
 
 	<test name="Regression">
 		<classes>
-			<class name="Automationframework.iceHrm.icelogintest"></class>
+			<class name="TestNgAnnotations.EmpTest"></class>
 		</classes>
 	</test>
    </suite> <!-- BaseClass -->
