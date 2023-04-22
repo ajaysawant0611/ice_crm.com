@@ -9,13 +9,16 @@ import java.lang.IndexOutOfBoundsException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class BrokenImgs {
 	public static void main(String[] args) throws  Exception {
 		
 		// TODO Auto-generated method stub
+		ChromeOptions co=new ChromeOptions();
+		co.addArguments("--remote-allow-origins=*");
 	    System.setProperty("webdriver.chrome.driver","chromedriver.exe");
-	    ChromeDriver driver=new ChromeDriver();
+	    ChromeDriver driver=new ChromeDriver(co);
 	    driver.navigate().to("https://www.amazon.in");
 	    
 	    List<WebElement> links=driver.findElements(By.tagName("img"));
