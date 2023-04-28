@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Automationframework.iceHrm.EmployeeTest">
+      <class name="com.ice_hrm_automation.TestingExamples.AddEmpOrangeHrm">
         <methods>
-          <include name="verifySearchEmp"/>
+          <include name="afterClass"/>
+          <include name="test"/>
           <include name="beforeClass"/>
         </methods>
-      </class> <!-- Automationframework.iceHrm.EmployeeTest -->
+      </class> <!-- com.ice_hrm_automation.TestingExamples.AddEmpOrangeHrm -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
